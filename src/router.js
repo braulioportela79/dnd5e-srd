@@ -10,6 +10,8 @@ import { ClassesInfo } from './pages/Classes/ClassesInfo';
 import { ClassesList } from './pages/Classes/ClassesList';
 import { EquipmentInfo } from './pages/Equipment/EquipmentInfo';
 import { EquipmentList } from './pages/Equipment/EquipmentList';
+import { CombatInfo } from './pages/Combat/CombatInfo';
+import { CombatList } from './pages/Combat/CombatList';
 
 export const Router = () => {
 
@@ -28,6 +30,8 @@ export const Router = () => {
                 <Route path='/classes/:slug' element={<ClassesInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/equipment' element={<EquipmentList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/equipment/:slug' element={<EquipmentInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/combat' element={<CombatList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/combat/:slug' element={<CombatInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );

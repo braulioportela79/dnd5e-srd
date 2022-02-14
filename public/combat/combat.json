@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "slug": "actions-in-combat",
+      "name": "Actions in Combat"
+    },
+    {
+      "slug": "attacking",
+      "name": "Attacking"
+    },
+    {
+      "slug": "combat-sequence",
+      "name": "Combat Sequence"
+    },
+    {
+      "slug": "cover",
+      "name": "Cover"
+    },
+    {
+      "slug": "damage-and-healing",
+      "name": "Damage & Healing"
+    },
+    {
+      "slug": "mounted-combat",
+      "name": "Mounted Combat"
+    },
+    {
+      "slug": "movement-in-combat",
+      "name": "Movement in Combat"
+    },
+    {
+      "slug": "underwater-combat",
+      "name": "Underwater Combat"
+    }
+  ]
+}
