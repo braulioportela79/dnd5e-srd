@@ -16,6 +16,8 @@ import { RunningInfo } from './pages/Running/RunningInfo';
 import { RunningList } from './pages/Running/RunningList';
 import { GameplayInfo } from './pages/Gameplay/GameplayInfo';
 import { GameplayList } from './pages/Gameplay/GameplayList';
+import { MagicItemList } from './pages/MagicItem/MagicItemList';
+import { MagicItemInfo } from './pages/MagicItem/MagicItemInfo';
 
 export const Router = () => {
 
@@ -40,6 +42,8 @@ export const Router = () => {
                 <Route path='/running/:slug' element={<RunningInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/gameplay-mechanics' element={<GameplayList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/gameplay-mechanics/:slug' element={<GameplayInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/magicitems/' element={<MagicItemList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/magicitems/:slug' element={<MagicItemInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );
