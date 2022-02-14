@@ -8,6 +8,8 @@ import { RacesInfo } from './pages/Races/RacesInfo';
 import { RacesList } from './pages/Races/RacesList';
 import { ClassesInfo } from './pages/Classes/ClassesInfo';
 import { ClassesList } from './pages/Classes/ClassesList';
+import { EquipmentInfo } from './pages/Equipment/EquipmentInfo';
+import { EquipmentList } from './pages/Equipment/EquipmentList';
 
 export const Router = () => {
 
@@ -24,6 +26,8 @@ export const Router = () => {
                 <Route path='/races/:slug' element={<RacesInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/classes' element={<ClassesList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/classes/:slug' element={<ClassesInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/equipment' element={<EquipmentList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/equipment/:slug' element={<EquipmentInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );
