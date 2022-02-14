@@ -1,5 +1,6 @@
 {
   "name": "dnd5e-srd",
+  "homepage": "https://dnd5e-srd.braulioportela.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
