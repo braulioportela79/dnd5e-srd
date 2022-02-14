@@ -12,6 +12,8 @@ import { EquipmentInfo } from './pages/Equipment/EquipmentInfo';
 import { EquipmentList } from './pages/Equipment/EquipmentList';
 import { CombatInfo } from './pages/Combat/CombatInfo';
 import { CombatList } from './pages/Combat/CombatList';
+import { RunningInfo } from './pages/Running/RunningInfo';
+import { RunningList } from './pages/Running/RunningList';
 
 export const Router = () => {
 
@@ -32,6 +34,8 @@ export const Router = () => {
                 <Route path='/equipment/:slug' element={<EquipmentInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/combat' element={<CombatList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/combat/:slug' element={<CombatInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/running' element={<RunningList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/running/:slug' element={<RunningInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );
