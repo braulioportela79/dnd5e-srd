@@ -18,6 +18,15 @@ import { GameplayInfo } from './pages/Gameplay/GameplayInfo';
 import { GameplayList } from './pages/Gameplay/GameplayList';
 import { MagicItemList } from './pages/MagicItem/MagicItemList';
 import { MagicItemInfo } from './pages/MagicItem/MagicItemInfo';
+import { SpellsList } from './pages/Spells/SpellsList';
+import { SpellItemInfo } from './pages/Spells/SpellItemInfo';
+import { BardSpellsList } from './pages/Spells/BardSpellsList';
+import { ClericSpellsList } from './pages/Spells/ClericSpellsList';
+import { DruidSpellsList } from './pages/Spells/DruidSpellsList';
+import { PaladinSpellsList } from './pages/Spells/PaladinSpellsList';
+import { SorcererSpellsList } from './pages/Spells/SorcererSpellsList';
+import { WarlockSpellsList } from './pages/Spells/WarlockSpellsList';
+import { WizardSpellsList } from './pages/Spells/WizardSpellsList';
 
 export const Router = () => {
 
@@ -44,6 +53,15 @@ export const Router = () => {
                 <Route path='/gameplay-mechanics/:slug' element={<GameplayInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/magicitems/' element={<MagicItemList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/magicitems/:slug' element={<MagicItemInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/' element={<SpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/:slug' element={<SpellItemInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/bard' element={<BardSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/cleric' element={<ClericSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/druid' element={<DruidSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/paladin' element={<PaladinSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/sorcerer' element={<SorcererSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/warlock' element={<WarlockSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/spells/by-class/wizard' element={<WizardSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );
