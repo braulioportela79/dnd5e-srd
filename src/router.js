@@ -14,6 +14,8 @@ import { CombatInfo } from './pages/Combat/CombatInfo';
 import { CombatList } from './pages/Combat/CombatList';
 import { RunningInfo } from './pages/Running/RunningInfo';
 import { RunningList } from './pages/Running/RunningList';
+import { GameplayInfo } from './pages/Gameplay/GameplayInfo';
+import { GameplayList } from './pages/Gameplay/GameplayList';
 
 export const Router = () => {
 
@@ -36,6 +38,8 @@ export const Router = () => {
                 <Route path='/combat/:slug' element={<CombatInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/running' element={<RunningList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/running/:slug' element={<RunningInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/gameplay-mechanics' element={<GameplayList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/gameplay-mechanics/:slug' element={<GameplayInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );

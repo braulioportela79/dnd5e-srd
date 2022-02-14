@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "slug": "ability-scores",
+      "name": "Ability Scores"
+    },
+    {
+      "slug": "between-adventures",
+      "name": "Between Adventures"
+    },
+    {
+      "slug": "environment",
+      "name": "Environment"
+    },
+    {
+      "slug": "movement",
+      "name": "Movement"
+    },
+    {
+      "slug": "rest",
+      "name": "Rest"
+    },
+    {
+      "slug": "saving-throws",
+      "name": "Saving Throws"
+    },
+    {
+      "slug": "time",
+      "name": "Time"
+    }
+  ]
+}

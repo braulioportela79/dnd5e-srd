@@ -1,0 +1,6 @@
+{
+  "name": "Time",
+  "desc": "In situations where keeping track of the passage of time is important,\r\nthe GM determines the time a task requires. The GM might use a different\r\ntime scale depending on the context of the situation at hand. In a\r\ndungeon environment, the adventurers' movement happens on a scale of\r\n**minutes**. It takes them about a minute to creep down a long hallway,\r\nanother minute to check for traps on the door at the end of the hall,\r\nand a good ten minutes to search the chamber beyond for anything\r\ninteresting or valuable.\r\n\r\nIn a city or wilderness, a scale of **hours** is often more appropriate.\r\nAdventurers eager to reach the lonely tower at the heart of the forest\r\nhurry across those fifteen miles in just under four hours' time.\r\n\r\nFor long journeys, a scale of **days** works best. Following the road\r\nfrom Baldur's Gate to Waterdeep, the adventurers spend four uneventful\r\ndays before a goblin ambush interrupts their journey.\r\n\r\nIn combat and other fast-paced situations, the game relies on\r\n**rounds**, a 6-second span of time.",
+  "image": "/assets/gameplay/time-avatar.png",
+  "bg": "/assets/gameplay/gameplay-bg.png"
+}
