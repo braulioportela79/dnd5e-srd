@@ -1,0 +1,255 @@
+{
+  "desc": [
+      {
+        "barbarian": "A fierce warrior of primitive background who can enter a battle rage",
+        "barbarian-traits" : "**Hit Die:** d12\n\n**Primary Ability:** Strength\n\n**Saves:** Strength & Constitution",
+        "slug": "barbarian"
+      },
+      {
+        "bard": "An inspiring magician whose power echoes the music of creation",
+        "bard-traits" : "**Hit Die:** d8\n\n**Primary Ability:** Charisma\n\n**Saves:** Dexterity & Charisma",
+        "slug": "bard"
+      },
+      {
+        "cleric": "A priestly champion who wields divine magic in service of a higher power",
+        "cleric-traits" : "**Hit Die:** d8\n\n**Primary Ability:** Wisdom\n\n**Saves:** Wisdom & Charisma",
+        "slug": "cleric"
+      },
+      {
+        "druid": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms",
+        "druid-traits" : "**Hit Die:** d8\n\n**Primary Ability:** Wisdom\n\n**Saves:** Intelligence & Wisdom",
+        "slug": "druid"
+      },
+      {
+        "fighter": "A master of martial combat, skilled with a variety of weapons and armor",
+        "fighter-traits" : "**Hit Die:** d10\n\n**Primary Ability:** Strength or Dexterity\n\n**Saves:** Strength & Constitution",
+        "slug": "fighter"
+      },
+      {
+        "monk": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection",
+        "monk-traits" : "**Hit Die:** d8\n\n**Primary Ability:** Dexterity & Wisdom\n\n**Saves:** Strength & Dexterity",
+        "slug": "monk"
+      },
+      {
+        "paladin": "A holy warrior bound to a sacred oath",
+        "paladin-traits" : "**Hit Die:** d10\n\n**Primary Ability:** Strength & Charisma\n\n**Saves:** Wisdom & Charisma",
+        "slug": "paladin"
+      },
+      {
+        "ranger": "A warrior who combats threats on the edges of civilization",
+        "ranger-traits" : "**Hit Die:** d10\n\n**Primary Ability:** Dexterity & Wisdom\n\n**Saves:** Strength & Dexterity",
+        "slug": "ranger"
+      },
+      {
+        "rogue": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies",
+        "rogue-traits" : "**Hit Die:** d8\n\n**Primary Ability:** Dexterity\n\n**Saves:** Dexterity & Intelligence",
+        "slug": "rogue"
+      },
+      {
+        "sorcerer": "A spellcaster who draws on inherent magic from a gift or bloodline",
+        "sorcerer-traits" : "**Hit Die:** d6\n\n**Primary Ability:** Charisma\n\n**Saves:** Constitution & Charisma",
+        "slug": "sorcerer"
+      },
+      {
+        "warlock": "A wielder of magic that is derived from a bargain with an extraplanar entity",
+        "warlock-traits" : "**Hit Die:** d8\n\n**Primary Ability:** Charisma\n\n**Saves:** Wisdom & Charisma",
+        "slug": "warlock"
+      },
+      {
+        "wizard": "A scholarly magic-user capable of manipulating the structure of reality",
+        "wizard-traits" : "**Hit Die:** d6\n\n**Primary Ability:** Intelligence\n\n**Saves:** Intelligence & Wisdom",
+        "slug": "wizard"
+      },
+      {
+        "dwarf": "Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal",
+        "dwarf-traits": "**Racial Traits**\n\n+2 Constitution, Darkvision, Dwarven Resilience, Dwarven Combat Training, Stonecunning",
+        "slug": "dwarf"
+      },
+      {
+        "elf": "Elves are a magical people of otherworldly grace, living in the world but not entirely part of it",
+        "elf-traits": "**Racial Traits**\n\n+2 Dexterity, Darkvision, Keen Senses, Fey Ancestry, Trance",
+        "slug": "elf"
+      },
+      {
+        "halfling": "The diminutive halflings survive in a world full of larger creatures by avoiding notice or barring that, avoiding offense",
+        "halfling-traits": "**Racial Traits**\n\n+2 Dexterity, Lucky, Brave, Halfling Nimbleness",
+        "slug": "halfling"
+      },
+      {
+        "human": "Humans are the most adaptable and ambitious people among the common races. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds",
+        "human-traits": "**Racial Traits**\n\n+1 to All Ability Scores, Extra Language",
+        "slug": "human"
+      },
+      {
+        "dragonborn": "Dragonborn look very much like dragons standing erect in humanoid form, thought they lack wings or a tail",
+        "dragonborn-traits": "**Racial Traits**\n\n+2 Strength, +1 Charisma, Draconic Ancestry, Breath Weapon, Damage Resistance",
+        "slug": "dragonborn"
+      },
+      {
+        "gnome": "A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body",
+        "gnome-traits": "**Racial Traits**\n\n+2 Intelligence, Darkvision, Gnome Cunning",
+        "slug": "gnome"
+      },
+      {
+        "half-elf": "Half-elves combine what some say are the best qualities of their elf and human parents",
+        "half-elf-traits": "**Racial Traits**\n\n+2 Charisma, +1 to Two Other Ability Scores, Darkvision, Fey Ancestry, Skill Versatility",
+        "slug": "half-elf"
+      },
+      {
+        "half-orc": "Half-orcs' grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see",
+        "half-orc-traits": "**Racial Traits**\n\n+2 Strength, +1 Constitution, Darkvision, Menacing, Relentless Endurance, Savage Attacks",
+        "slug": "half-orc"
+      },
+      {
+        "tiefling": "To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling",
+        "tiefling-traits": "**Racial Traits**\n\n+2 Charisma, +1 Intelligence, Darkvision, Hellish Resistance, Infernal Legacy",
+        "slug": "tiefling"
+      },
+      {
+        "alignment": "A creature's general moral and personal attitudes are represented by its alignment. It is a tool for developing your character's identity. Each alignment represents a broad range of personality types or personal philosophies.",
+        "slug": "alignment"
+      },
+      {
+        "backgrounds": "Backgrounds will provide you with an important story cues all about your character’s identity and can reveal like how you have become an adventurer, where you have come from and about your place where ever it might be in the world.",
+        "slug": "backgrounds"
+      },
+      {
+        "inspiration": "Inspiration is a game mechanic a DM can use to reward a player for roleplaying their character in a way that reflects the bonds, flaws, ideals, and personality traits at character creation.",
+        "slug": "inspiration"
+      },
+      {
+        "languages": "Languages are simply the different types of speech used by various peoples and creatures of a world",
+        "slug": "languages"
+      },
+      {
+        "leveling-up": "Leveling up is the base for all progression. The higher your level, the further you’ve progressed from your humble (or maybe not so humble) beginnings.",
+        "slug": "leveling-up"
+      },
+      {
+        "multiclassing": "Multiclassing is a tricky yet potentially fulfilling tool to utilize. Multiclassing involves placing leveling bonuses in classes that are not your chosen core class.",
+        "slug": "multiclassing"
+      },
+      {
+        "adventuring-gear": "Adventuring gear might not seem as powerful as a good weapon in D&D, but these items are particularly useful in any campaign.",
+        "slug": "adventuring-gear"
+      },
+      {
+        "armor": "D&D worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging from leather armor to chain mail to costly plate armor, with several other kinds of armor in between.",
+        "slug": "armor"
+      },
+      {
+        "equipment": "The marketplace of a large city teems with buyers and sellers of many sorts. Almost anything imaginable is offered for sale, from exotic spices and luxurious clothing to wicker baskets and practical swords.",
+        "slug": "equipment"
+      },
+      {
+        "equipment-packs": "Adventuring would be just survival if not for gear. A characters cloths, armour, and weapons are just some of the items players carry with them. All of which shows what type of character they are, or at least what type of character they are portraying.",
+        "slug": "equipment-packs"
+      },
+      {
+        "expenses": "Between adventures, you choose a particular quality of life and pay the cost of maintaining that lifestyle. Living a particular lifestyle doesn't have a huge effect on your character, but your lifestyle can affect the way other individuals and groups react to you.",
+        "slug": "expenses"
+      },
+      {
+        "mounts-and-vehicles": "If you choose to acquire a mount, whether something as mundane as a horse or as fantastic as a pegasus, you’ll want to know a few things about how they work outside of combat. Similarly, if you have a vehicle like a cart or a ship, you’ll need to know a few things.",
+        "slug": "mounts-and-vehicles"
+      },
+      {
+        "selling-treasure": "Looting the bodies and selling treasure is a time-honored tradition in D&D and it’s a crucial source of income for adventurers. Most beast-like monsters won’t have anything of value, but you might find a handful of coins or something from previous victims.",
+        "slug": "selling-treasure"
+      },
+      {
+        "tools": "There are a variety of tools to choose from in D&D. Players can choose a number of these tools based on their background, class, race and chosen feats. Some tool proficiencies only come from certain backgrounds.",
+        "slug": "tools"
+      },
+      {
+        "trade-goods": "You can always find a marketplace in a larger city to sell or to buy some trade goods.",
+        "slug": "trade-goods"
+      },
+      {
+        "weapons": "There are a ton of different weapons in D&D and they come in several different categories and deal different types of damage.",
+        "slug": "weapons"
+      },     {
+        "actions-in-combat": "An action is the main thing you do on your turn in combat. Every character can take an action on their turn. Usually, you only get one action per turn. But, there are certain features, that give your character more.",
+        "slug": "actions-in-combat"
+      },
+      {
+        "attacking": "The clatter of a sword striking against a shield. The terrible rending sound as monstrous claws tear through armor. A brilliant flash of light as a ball of flame blossoms from a wizard’s spell. Combat in D&D can be chaotic, deadly, and thrilling.",
+        "slug": "attacking"
+      },
+      {
+        "combat-sequence": "The clatter of a sword striking against a shield. The terrible rending sound as monstrous claws tear through armor. A brilliant flash of light as a ball of flame blossoms from a wizard’s spell. Combat in D&D can be chaotic, deadly, and thrilling.",
+        "slug": "combat-sequence"
+      },
+      {
+        "cover": "As the name implies, is an obstacle that helps the target avoid being hit. The only two things you have to remember about the cover rules is what type of cover the target of an attack has, and if they can benefit from it.",
+        "slug": "cover"
+      },
+      {
+        "damage-and-healing": "Damage types in D&D explain how an attack or other effect damages a creature or target. As a D&D healer, keeping the party alive is your responsibility.",
+        "slug": "damage-and-healing"
+      },
+      {
+       "mounted-combat": "Cavalry's here! Mounts and mounted combat are a fantasy staple.",
+       "slug": "mounted-combat"
+     },
+     {
+      "movement-in-combat": "A lot of the movement in real combat results from combatants pressuring each other. One presses the attack and another gives ground, or one dances back from an attack to draw an opponent in.",
+      "slug": "movement-in-combat"
+    },
+    {
+     "underwater-combat": "While individual combat encounters in D&D are dynamic and ever-changing, the rules that govern these encounters don’t change much. One of the few scenarios where some additional rules come into play are underwater combat encounters.",
+     "slug": "underwater-combat"
+   },
+   {
+    "conditions": "Conditions add extra depth and risk to combat. That giant centipede’s bite may not be as bad as you thought it would be, but the poison is something else entirely!",
+    "slug": "conditions"
+  },
+  {
+    "diseases": "Diseases have various symptoms and are spread through a number of vectors. A character is injured by a contaminated attack touches an item smeared with diseased matter, or consumes disease-tainted food or drink.",
+    "slug": "diseases"
+  },
+  {
+    "madness": "Madness in D&D is fairly straight forward. Something could cause the madness, and players could get for 10mins, 10 hours,the rest of their life.",
+    "slug": "madness"
+  },
+  {
+    "objects": "An object is a non-living, non-thinking thing, that can clearly be separated from its environment, has its own statistics, and lacks separate statistics for any of its vital parts.",
+    "slug": "objects"
+  },
+  {
+    "poisons": "A character takes damage from an attack with a poisoned weapon, touches an item smeared with contact poison, consumes poisoned food or drink, or is otherwise poisoned,",
+    "slug": "poisons"
+  },
+  {
+    "traps": "A trap suddenly springing on the party will certainly get their attention and make the players more alert. Traps are a great way of reminding the players of the mortality of their characters.",
+    "slug": "traps"
+  },
+  {
+    "ability-scores": "Ability scores are your D&D character’s primary statistics and pretty much determine how good they are at doing anything.",
+    "slug": "ability-scores"
+  },
+  {
+    "between-adventures": "You can take your time to improve some skills while not hunting down enemies or on a quest.",
+    "slug": "between-adventures"
+  },
+  {
+    "environment": "Each place to explore can have its own characteristics. Be aware of the conditions of such location in your adventure.",
+    "slug": "environment"
+  },
+  {
+    "movement": "Either traveling around the world or climbing a mountain, you must know how you can achieve this movements.",
+    "slug": "movement"
+  },
+  {
+    "rest": "In D&D certain classes are designed to regain their powers after a long rest while others regain powers after a short rest or do not require rests at all. ",
+    "slug": "rest"
+  },{
+    "saving-throws": "A saving throw is a roll of dice used to determine whether magic, poison, or various other types of attacks are effective against a character or monster. They are used to represent the character's ability to avoid or resist the threat.",
+    "slug": "saving-throws"
+  },
+  {
+    "time": "D&D gives a length of time for just about everything from combat rounds to short rests to travel times to creating magic items, so it depends on what the characters are wanting to do that determines the length of time.",
+    "slug": "time"
+  }
+    ]
+}

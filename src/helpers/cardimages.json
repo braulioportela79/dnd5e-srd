@@ -1,0 +1,272 @@
+{
+  "images":  [
+      {
+        "barbarian": "/assets/classes/barbarian.png",
+        "barbarian-icon": "/assets/classes/barbarian-icon.jpeg",
+        "slug": "barbarian"
+      },
+      {
+        "bard": "/assets/classes/bard.png",
+        "bard-icon": "/assets/classes/bard-icon.jpeg",
+        "slug": "bard"
+      },
+      {
+        "cleric": "/assets/classes/cleric.png",
+        "cleric-icon": "/assets/classes/cleric-icon.jpeg",
+        "slug": "cleric"
+      },
+      {
+        "druid": "/assets/classes/druid.png",
+        "druid-icon": "/assets/classes/druid-icon.jpeg",
+        "slug": "druid"
+      },
+      {
+        "fighter": "/assets/classes/fighter.png",
+        "fighter-icon": "/assets/classes/fighter-icon.jpeg",
+        "slug": "fighter"
+      },
+      {
+        "monk": "/assets/classes/monk.png",
+        "monk-icon": "/assets/classes/monk-icon.jpeg",
+        "slug": "monk"
+      },
+      {
+        "paladin": "/assets/classes/paladin.png",
+        "paladin-icon": "/assets/classes/paladin-icon.jpeg",
+        "slug": "paladin"
+      },
+      {
+        "ranger": "/assets/classes/ranger.png",
+        "ranger-icon": "/assets/classes/ranger-icon.jpeg",
+        "slug": "ranger"
+      },
+      {
+        "rogue": "/assets/classes/rogue.png",
+        "rogue-icon": "/assets/classes/rogue-icon.jpeg",
+        "slug": "rogue"
+      },
+      {
+        "sorcerer": "/assets/classes/sorcerer.png",
+        "sorcerer-icon": "/assets/classes/sorcerer-icon.jpeg",
+        "slug": "sorcerer"
+      },
+      {
+        "warlock": "/assets/classes/warlock.png",
+        "warlock-icon": "/assets/classes/warlock-icon.jpeg",
+        "slug": "warlock"
+      },
+      {
+        "wizard": "/assets/classes/wizard.png",
+        "wizard-icon": "/assets/classes/wizard-icon.jpeg",
+        "slug": "wizard"
+      },
+      {
+        "dwarf": "/assets/races/dwarf.png",
+        "dwarf-icon": "/assets/races/dwarf-icon.jpeg",
+        "slug": "dwarf"
+      },
+      {
+        "elf": "/assets/races/elf.png",
+        "elf-icon": "/assets/races/elf-icon.jpeg",
+        "slug": "elf"
+      },
+      {
+        "halfling": "/assets/races/halfling.png",
+        "halfling-icon": "/assets/races/halfling-icon.jpeg",
+        "slug": "halfling"
+      },
+      {
+        "human": "/assets/races/human.png",
+        "human-icon": "/assets/races/human-icon.jpeg",
+        "slug": "human"
+      },
+      {
+        "dragonborn": "/assets/races/dragonborn.png",
+        "dragonborn-icon": "/assets/races/dragonborn-icon.jpeg",
+        "slug": "dragonborn"
+      },
+      {
+        "gnome": "/assets/races/gnome.png",
+        "gnome-icon": "/assets/races/gnome-icon.jpeg",
+        "slug": "gnome"
+      },
+      {
+        "half-elf": "/assets/races/halfelf.png",
+        "half-elf-icon": "/assets/races/half-elf-icon.jpeg",
+        "slug": "half-elf"
+      },
+      {
+        "half-orc": "/assets/races/half-orc.png",
+        "half-orc-icon": "/assets/races/half-orc-icon.jpeg",
+        "slug": "half-orc"
+      },
+      {
+        "tiefling": "/assets/races/tiefling.png",
+        "tiefling-icon": "/assets/races/tiefling-icon.jpeg",
+        "slug": "tiefling"
+      },
+      {
+        "alignment": "/assets/characters/alignment.png",
+        "alignment-icon": "/assets/characters/alignment-icon.jpeg",
+        "slug": "alignment"
+      },
+      {
+        "backgrounds": "/assets/characters/backgrounds.png",
+        "backgrounds-icon": "/assets/characters/backgrounds-icon.jpeg",
+        "slug": "backgrounds"
+      },
+      {
+        "inspiration": "/assets/characters/inspiration.png",
+        "inspiration-icon": "/assets/characters/inspiration-icon.jpeg",
+        "slug": "inspiration"
+      },
+      {
+        "languages": "/assets/characters/languages.png",
+        "languages-icon": "/assets/characters/languages-icon.jpeg",
+        "slug": "languages"
+      },
+      {
+        "leveling-up": "/assets/characters/leveling-up.png",
+        "leveling-up-icon": "/assets/characters/leveling-up-icon.jpeg",
+        "slug": "leveling-up"
+      },
+      {
+        "multiclassing": "/assets/characters/multiclassing.png",
+        "multiclassing-icon": "/assets/characters/multiclassing-icon.jpeg",
+        "slug": "multiclassing"
+      },
+      {
+        "adventuring-gear": "/assets/equipment/adventuring-gear.png",
+        "adventuring-gear-icon": "/assets/equipment/adventuring-gear-icon.jpeg",
+        "slug": "adventuring-gear"
+      },
+      {
+        "armor": "/assets/equipment/armor.png",
+        "armor-icon": "/assets/equipment/armor-icon.jpeg",
+        "slug": "armor"
+      },
+      {
+        "equipment": "/assets/equipment/equipment.png",
+        "equipment-icon": "/assets/equipment/equipment-icon.jpeg",
+        "slug": "equipment"
+      },
+      {
+        "equipment-packs": "/assets/equipment/equipment-packs.png",
+        "equipment-packs-icon": "/assets/equipment/equipment-packs-icon.jpeg",
+        "slug": "equipment-packs"
+      },
+      {
+        "expenses": "/assets/equipment/expenses.png",
+        "expenses-icon": "/assets/equipment/expenses-icon.jpeg",
+        "slug": "expenses"
+      },
+      {
+        "mounts-and-vehicles": "/assets/equipment/mounts-and-vehicles.png",
+        "mounts-and-vehicles-icon": "/assets/equipment/mounts-and-vehicles-icon.jpeg",
+        "slug": "mounts-and-vehicles"
+      },
+      {
+        "selling-treasure": "/assets/equipment/selling-treasure.png",
+        "selling-treasure-icon": "/assets/equipment/selling-treasure-icon.jpeg",
+        "slug": "selling-treasure"
+      },
+      {
+        "tools": "/assets/equipment/tools.png",
+        "tools-icon": "/assets/equipment/tools-icon.jpeg",
+        "slug": "tools"
+      },
+      {
+        "trade-goods": "/assets/equipment/trade-goods.png",
+        "trade-goods-icon": "/assets/equipment/trade-goods-icon.jpeg",
+        "slug": "trade-goods"
+      },
+      {
+        "weapons": "/assets/equipment/weapons.png",
+        "weapons-icon": "/assets/equipment/weapons-icon.jpeg",
+        "slug": "weapons"
+      },      {
+        "actions-in-combat": "/assets/combat/actions-in-combat.png",
+        "slug": "actions-in-combat"
+      },
+      {
+        "attacking": "/assets/combat/attacking.png",
+        "slug": "attacking"
+      },
+      {
+        "combat-sequence": "/assets/combat/combat-sequence.png",
+        "slug": "combat-sequence"
+      },
+      {
+        "cover": "/assets/combat/cover.png",
+        "slug": "cover"
+      },
+       {
+        "damage-and-healing": "/assets/combat/damage-and-healing.png",
+        "slug": "damage-and-healing"
+      },
+       {
+        "mounted-combat": "/assets/combat/mounted-combat.png",
+        "slug": "mounted-combat"
+      },
+      {
+       "movement-in-combat": "/assets/combat/movement-in-combat.png",
+       "slug": "movement-in-combat"
+     },
+     {
+      "underwater-combat": "/assets/combat/underwater-combat.png",
+      "slug": "underwater-combat"
+    },
+    {
+      "conditions": "/assets/running/conditions.png",
+      "slug": "conditions"
+    },
+    {
+      "diseases": "/assets/running/diseases.png",
+      "slug": "diseases"
+    },
+    {
+      "madness": "/assets/running/madness.png",
+      "slug": "madness"
+    },
+    {
+      "objects": "/assets/running/objects.png",
+      "slug": "objects"
+    },
+    {
+      "poisons": "/assets/running/poisons.png",
+      "slug": "poisons"
+    },
+    {
+      "traps": "/assets/running/traps.png",
+      "slug": "traps"
+    },
+    {
+      "ability-scores": "/assets/gameplay/ability-scores.png",
+      "slug": "ability-scores"
+    },
+    {
+      "between-adventures": "/assets/gameplay/between-adventures.png",
+      "slug": "between-adventures"
+    },
+    {
+      "environment": "/assets/gameplay/environment.png",
+      "slug": "environment"
+    },
+    {
+      "movement": "/assets/gameplay/movement.png",
+      "slug": "movement"
+    },
+    {
+      "rest": "/assets/gameplay/rest.png",
+      "slug": "rest"
+    },{
+      "saving-throws": "/assets/gameplay/saving-throws.png",
+      "slug": "saving-throws"
+    },
+    {
+      "time": "/assets/gameplay/time.png",
+      "slug": "time"
+    }
+    ]
+  }
+
