@@ -27,6 +27,8 @@ import { PaladinSpellsList } from './pages/Spells/PaladinSpellsList';
 import { SorcererSpellsList } from './pages/Spells/SorcererSpellsList';
 import { WarlockSpellsList } from './pages/Spells/WarlockSpellsList';
 import { WizardSpellsList } from './pages/Spells/WizardSpellsList';
+import { MonstersList } from './pages/Monsters/MonstersList';
+import { MonstersInfo } from './pages/Monsters/MonstersInfo';
 
 export const Router = () => {
 
@@ -62,6 +64,8 @@ export const Router = () => {
                 <Route path='/spells/by-class/sorcerer' element={<SorcererSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/spells/by-class/warlock' element={<WarlockSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/spells/by-class/wizard' element={<WizardSpellsList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/monsters/' element={<MonstersList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/monsters/:slug' element={<MonstersInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );
