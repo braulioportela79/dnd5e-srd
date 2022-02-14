@@ -6,6 +6,8 @@ import { CharactersList } from './pages/Characters/CharactersList';
 import { CharactersInfo } from './pages/Characters/CharactersInfo';
 import { RacesInfo } from './pages/Races/RacesInfo';
 import { RacesList } from './pages/Races/RacesList';
+import { ClassesInfo } from './pages/Classes/ClassesInfo';
+import { ClassesList } from './pages/Classes/ClassesList';
 
 export const Router = () => {
 
@@ -20,6 +22,8 @@ export const Router = () => {
                 <Route path='/characters/:slug' element={<CharactersInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/races' element={<RacesList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
                 <Route path='/races/:slug' element={<RacesInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/classes' element={<ClassesList sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
+                <Route path='/classes/:slug' element={<ClassesInfo sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />} />
             </Routes>
         </BrowserRouter>
     );
